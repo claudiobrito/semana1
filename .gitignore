@@ -1,6 +1,57 @@
-*.class
+class BasicFunctions{
 
-# Package Files #
-*.jar
-*.war
-*.ear
+   static int DoubleOF(int x){
+      return x*2;
+      }
+      
+   
+   static double square(int i){
+      return i*i;
+   }
+   
+   
+   static int diference(int x, int y){
+      if (x > y) {
+       return x-y; }
+       else { return y-x;
+      }}
+      
+      
+      static double percentagem(int a, int total){
+        return (double)a/total*100; }
+          
+      
+      static double media(int a, int b){
+        return (double) (a+b)/2;}
+      
+      
+      static int round(double a){
+          return (int) (a+0.5);}
+      
+      
+      
+      static boolean isnegative(int a){
+      return (a<0)  ;  }
+      
+  
+      static boolean impar(int a) {
+        return a % 2 ==1; }
+        
+       
+       static boolean par(int a) {
+        return a % 2 ==0; }
+        
+       
+       static boolean incluidofech(int y, int limI, int limS) {
+       return (limI<=y && y<=limS); }
+
+      
+      
+      
+      static boolean multiplo(int a, int b) {
+        return a % b==0 && a % 2 == 0;}
+      
+      static boolean parneg(int a) {
+        return a % 2 == 0 || a<0;}
+      
+ }
